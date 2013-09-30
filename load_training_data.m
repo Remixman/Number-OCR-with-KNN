@@ -1,11 +1,11 @@
 function [training class] = load_training_data()
 
 category_num = 10;
-cate_train_num = 9;
+cate_train_num = 12;
 total_train_num = category_num * cate_train_num;
 
 class = zeros(total_train_num, 1);
-training = zeros(total_train_num, 20* 20);
+training = zeros(total_train_num, 10* 10);
 
 class_count = 1;
 

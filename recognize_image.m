@@ -1,11 +1,14 @@
-function number = recognize_image(img_name)
+function number = recognize_image(img_name, k)
 
 img = imread(img_name);
-feature = zeros(1,20*20);
+
+imshow(img);
+
+feature = zeros(1,10*10);
 feature(1,:) = im_feature(img);
 
 % training
 [training class] = load_training_data();
 
 % classify with knn
-number = knnclassify(feature, training, class);
+number = knnclassify(feature, training, class, k);
