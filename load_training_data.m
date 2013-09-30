@@ -5,7 +5,7 @@ cate_train_num = 12;
 total_train_num = category_num * cate_train_num;
 
 class = zeros(total_train_num, 1);
-training = zeros(total_train_num, 10* 10);
+training = zeros(total_train_num, 25* 25);
 
 class_count = 1;
 

@@ -4,7 +4,7 @@ img = imread(img_name);
 
 imshow(img);
 
-feature = zeros(1,10*10);
+feature = zeros(1,25*25);
 feature(1,:) = im_feature(img);
 
 % training
