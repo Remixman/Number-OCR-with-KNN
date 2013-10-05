@@ -1,6 +1,6 @@
 function perf = performance_recognize()
 
-k = 5;
+k = 9;
 test_num = 30;
 correct_num = 0;
 solutions = [8 7 4 9 5 2 3 1 0 8 4 5 8 7 3 4 5 6 6 3 5 4 1 8 2 9 6 5 0 9];
